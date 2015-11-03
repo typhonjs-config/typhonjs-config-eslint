@@ -1,6 +1,6 @@
 {
    "name": "typhon-config-eslint-es6",
-   "version": "0.0.1",
+   "version": "0.1.0",
    "homepage": "https://github.com/typhonjs/typhon-config-eslint-es6/",
    "description": "Provides a shared ESLint config for ES6 TyphonJS repos.",
    "license": "MIT",
