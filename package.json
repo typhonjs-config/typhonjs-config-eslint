@@ -1,15 +1,15 @@
 {
-   "name": "typhonjs-config-eslint-es6",
-   "version": "0.3.0",
-   "homepage": "https://github.com/typhonjs/typhonjs-config-eslint-es6/",
-   "description": "Provides a shared ESLint config for ES6 TyphonJS repos.",
+   "name": "typhonjs-config-eslint",
+   "version": "0.1.0",
+   "homepage": "https://github.com/typhonjs/typhonjs-config-eslint/",
+   "description": "Provides a shared ESLint configs TyphonJS repos.",
    "license": "MIT",
    "author": {
       "name": "Mike Leahy"
    },
    "repository": {
       "type": "git",
-      "url": "https://github.com/typhonjs/typhonjs-config-eslint-es6/typhonjs-config-eslint-es6.git"
+      "url": "https://github.com/typhonjs/typhonjs-config-eslint/typhonjs-config-eslint.git"
    },
    "maintainers": [
       {
@@ -30,11 +30,10 @@
    "main": ".eslintrc",
    "files": [
       ".eslintrc",
-      "CHANGELOG.md",
-      "README.md"
+      "CHANGELOG.md"
    ],
    "directories": {},
    "bugs": {
-      "url": "https://github.com/typhonjs/typhonjs-config-eslint-es6/issues"
+      "url": "https://github.com/typhonjs/typhonjs-config-eslint/issues"
    }
 }
