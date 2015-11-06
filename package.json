@@ -27,7 +27,6 @@
       "shared",
       "config"
    ],
-   "main": ".eslintrc",
    "files": [
       "es5",
       "es6"
