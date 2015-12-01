@@ -47,10 +47,15 @@
       "operator-assignment": [2, "always"],
       "operator-linebreak": [2, "before", { "overrides":
       {
+         ":": "after",
          "?": "after",
          "||": "after",
          "&&": "after",
-         "=": "after"
+         "=": "after",
+         "==": "after",
+         "!=": "after",
+         "===": "after",
+         "!==": "after"
       }}],
       "semi": [2, "always"],
       "sort-vars": [2, { "ignoreCase": true }],
