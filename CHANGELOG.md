@@ -1,9 +1,13 @@
+## 0.2.2 (2016-02-21)
+- **Feat**
+  - Added `es6/server/node` .eslintrc for server side ES6 / Node linting.
+
 ## 0.2.1 (2015-12-01)
 - Added additional overrides to `operator-linebreak`.
 
 ## 0.2.0 (2015-11-06)
 - **Feat**
-  - Added `es5/server/node` .eslintrc for server side Node linting.
+  - Added `es5/server/node` .eslintrc for server side ES5 / CJS Node linting.
 
 - Moved es6 .eslintrc to `es6/browser`
 

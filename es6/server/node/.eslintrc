@@ -1,5 +1,5 @@
 /**
- * Provides ESLint configuration for TyphonJS ES6 browser repos. This configuration is rather comprehensive requiring
+ * Provides ESLint configuration for TyphonJS ES6 Node repos. This configuration is rather comprehensive requiring
  * complete documentation and strict styling of source code. All commits and pull requests must use this ESLint
  * configuration.
  */
@@ -13,8 +13,9 @@
 
    "env":
    {
-      "browser": true,
-      "es6": true
+      "es6": true,
+      "mocha": true,
+      "node": true
    },
 
    "globals":
@@ -29,6 +30,7 @@
       /* Architecture */
       "eqeqeq": 2,
       "no-array-constructor": 2,
+      "no-console": 0,
       "no-new-object": 2,
 
       /* Documentation */
@@ -72,8 +74,8 @@
       "wrap-regex": 2,
 
       /* Styling (useful for checking source, but disable as generated SystemJS config.js does not honor these) */
-      "quotes": [0, "single", "avoid-escape"],
-      "quote-props": [0, "consistent-as-needed", { "keywords": true }],
+      "quotes": [2, "single", "avoid-escape"],
+      "quote-props": [2, "consistent-as-needed", { "keywords": true }],
 
       /* ES6 */
       "arrow-parens": [2, "always"],

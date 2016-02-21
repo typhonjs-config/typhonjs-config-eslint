@@ -1,7 +1,7 @@
 /**
  * Provides ESLint configuration for TyphonJS ES5 / Node / CJS repos. This configuration is rather comprehensive
  * requiring complete documentation and strict styling of source code. All commits and pull requests must use this
- * ESLint configuration. In the future Code Climate will be used to automate checking pull requests.
+ * ESLint configuration.
  */
 {
    "extends": "eslint:recommended",
