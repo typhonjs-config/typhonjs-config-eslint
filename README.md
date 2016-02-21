@@ -11,7 +11,7 @@ To install:
 
 To use:
 
-Create a minimal `.eslintrc` file in the root path of a project like following.
+Create a minimal `.eslintrc` file in the root path of a project.
 
 ```
 /**
