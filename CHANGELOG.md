@@ -1,3 +1,7 @@
+## 0.4.0 (2016-03-07)
+- **Feat**
+  - Added `./2.0` rules for ESLint 2.x.
+
 ## 0.2.2 (2016-02-21)
 - **Feat**
   - Added `es6/server/node` .eslintrc for server side ES6 / Node linting.
