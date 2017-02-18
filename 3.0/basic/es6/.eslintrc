@@ -1,0 +1,13 @@
+/**
+ * Provides ESLint 3.x configuration for TyphonJS ES6+ repos. This configuration is rather comprehensive
+ * requiring complete documentation and strict styling of source code. All commits and pull requests must use this
+ * ESLint configuration.
+ */
+{
+   "extends": "../../.eslintrc",
+
+   "parserOptions":
+   {
+      "ecmaVersion": 6
+   }
+}

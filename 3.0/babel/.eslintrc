@@ -1,0 +1,25 @@
+/**
+ * Provides ESLint 3.x common Babel configuration for TyphonJS ES6+ repos. This configuration is rather comprehensive
+ * requiring complete documentation and strict styling of source code. All commits and pull requests must use this
+ * ESLint configuration.
+ */
+{
+   "extends": "../.eslintrc",
+
+   "parser": "babel-eslint",
+
+   "plugins": [
+      "babel"
+   ],
+
+   "rules":
+   {
+      /* Babel plugin rules */
+      "babel/new-cap": 1,
+      "babel/no-await-in-loop": 1,
+
+      /* Unused Babel plugin rules */
+      "babel/no-invalid-this": 0,
+      "babel/object-curly-spacing": 0
+   }
+}
