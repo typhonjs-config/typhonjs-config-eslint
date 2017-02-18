@@ -5,7 +5,7 @@
    "description": "Provides shared ESLint configs for TyphonJS repos.",
    "license": "MIT",
    "author": {
-      "name": "Mike Leahy"
+      "name": "typhonrt"
    },
    "repository": {
       "type": "git",
@@ -13,8 +13,8 @@
    },
    "maintainers": [
       {
-         "name": "Mike Leahy",
-         "email": "support@js.typhonrt.org"
+         "name": "typhonrt",
+         "email": "support@js.typhonjs.io"
       }
    ],
    "dependencies": {
