@@ -1,3 +1,7 @@
+## 0.5.0 (2017-02-18)
+- **Feat**
+  - Added `./3.0` rules for ESLint 3.x along with Babel parser & plugin support.
+
 ## 0.4.0 (2016-03-07)
 - **Feat**
   - Added `./2.0` rules for ESLint 2.x.
